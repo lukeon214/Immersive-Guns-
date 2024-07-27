@@ -1,0 +1,45 @@
+{
+  "pack.imguns.imguns_default_gun.name": "Immersive Guns - Beta Pack",
+  "pack.imguns.imguns_default_gun.desc": "If you are reading this that means that im a total idiot and forgot to change this text, so please join my discord and tell me that i should change it - Thanks!",
+
+
+  "imguns.type.ammo.name": "Ammo",
+  "imguns.type.pistol.name": "Pistol",
+  "imguns.type.rifle.name": "Rifle",
+  "imguns.type.rpg.name": "Heavy Weapon",
+  "imguns.type.mg.name": "Machine Gun",
+  "imguns.type.sniper.name": "Sniper",
+  "imguns.type.shotgun.name": "Shotgun",
+  "imguns.type.smg.name": "SMG",
+  "imguns.type.scope.name": "Scope",
+  "imguns.type.muzzle.name": "Muzzle",
+  "imguns.type.stock.name": "Stock",
+  "imguns.type.grip.name": "Grip",
+  "imguns.type.extended_mag.name": "Extended Mag",
+  "imguns.type.laser.name": "Laser",
+
+  "immersiveguns.gun.glock_17.name": "Glock 17",
+  "immersiveguns.gun.glock_18.name": "Glock 18 - Auto",
+
+  "imguns.gun.ak47.desc": "Under Construction",
+  "imguns.gun.db_short.desc": "Under Construction",
+  "immersiveguns.gun.glock_17.desc": "We just all love this gun, Don't we?",
+  "immersiveguns.gun.glock_18.desc": "We just all love this gun, Don't we?",
+  "imguns.gun.m249.desc": "Under Construction",
+  "imguns.gun.rpg7.desc": "Under Construction",
+  "imguns.gun.hk_mp5a5.desc": "Under Construction",
+
+
+  "imguns.ammo.9mm.name": "§a9mm Bullet",
+  
+  "imguns.attachment.sight_sro_dot.name": "SRO Mini Red Dot",
+  "imguns.attachment.sight_rmr_dot.name": "RMR Mini Red Dot",
+
+  "imguns.attachment.light_extended_mag_1.name":"Light Ammo Extended mag",
+  "imguns.attachment.light_extended_mag_2.name":"§9Light Ammo Extended mag",
+  "imguns.attachment.light_extended_mag_3.name":"§5Light Ammo Extended mag",
+
+
+  "imguns.attachment.muzzle_silence_mirage.name": "Pistol Silencer"
+
+}

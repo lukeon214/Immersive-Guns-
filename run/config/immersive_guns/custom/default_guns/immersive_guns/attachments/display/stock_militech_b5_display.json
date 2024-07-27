@@ -1,0 +1,10 @@
+{
+  "slot": "immersive_guns:attachment/slot/stock_militech_b5",
+  "model": "immersive_guns:attachment/stock_militech_b5_geo",
+  "texture": "immersive_guns:attachment/uv/stock_militech_b5",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "immersive_guns:attachments/attachment_general_a",
+    "uninstall": "immersive_guns:attachments/attachment_general_uninstall"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "slot": "immersive_guns:attachment/slot/light_extended_mag_3",
+  "sounds": {
+    "install": "immersive_guns:attachments/extended_mag_install",
+    "uninstall": "immersive_guns:attachments/extended_mag_uninstall"
+  }
+}

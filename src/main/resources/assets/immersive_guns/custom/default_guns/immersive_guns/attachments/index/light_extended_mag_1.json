@@ -1,0 +1,6 @@
+{
+  "name": "imguns.attachment.light_extended_mag_1.name",
+  "display": "immersive_guns:light_extended_mag_1_display",
+  "data": "immersive_guns:light_extended_mag_1_data",
+  "type": "extended_mag"
+}

@@ -1,0 +1,7 @@
+{
+  "name": "imguns.gun.db_short.name",
+  "display": "immersive_guns:db_short_display",
+  "data": "immersive_guns:db_short_data",
+  "tooltip": "imguns.gun.db_short.desc",
+  "type": "shotgun"
+}

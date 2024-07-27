@@ -1,0 +1,8 @@
+{
+  "name": "imguns.gun.m249.name",
+  "display": "immersive_guns:m249_display",
+  "data": "immersive_guns:m249_data",
+  "tooltip": "imguns.gun.m249.desc",
+  "type": "mg",
+  "sort": 1
+}

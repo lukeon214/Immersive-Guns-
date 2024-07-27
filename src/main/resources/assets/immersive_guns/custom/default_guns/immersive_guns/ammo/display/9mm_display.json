@@ -1,0 +1,27 @@
+{
+  "slot": "immersive_guns:ammo/slot/9mm",
+  "shell": {
+    "model": "immersive_guns:shell/9mm_shell",
+    "texture": "immersive_guns:shell/9mm_shell"
+  },
+  "tracer_color": "#FF8888",
+  "transform": {
+    "scale": {
+      "thirdperson": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "ground": [
+        0.6,
+        0.6,
+        0.6
+      ],
+      "fixed": [
+        1.2,
+        1.2,
+        1.2
+      ]
+    }
+  }
+}

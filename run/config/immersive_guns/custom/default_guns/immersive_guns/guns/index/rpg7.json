@@ -1,0 +1,7 @@
+{
+  "name": "imguns.gun.rpg7.name",
+  "display": "immersive_guns:rpg7_display",
+  "data": "immersive_guns:rpg7_data",
+  "tooltip": "imguns.gun.rpg7.desc",
+  "type": "rpg"
+}

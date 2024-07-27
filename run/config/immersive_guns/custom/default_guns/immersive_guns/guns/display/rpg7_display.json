@@ -1,0 +1,42 @@
+{
+  "model": "immersive_guns:gun/rpg7_geo",
+  "texture": "immersive_guns:gun/uv/rpg7",
+  "hud": "immersive_guns:gun/hud/rpg7",
+  "slot": "immersive_guns:gun/slot/rpg7",
+  "animation": "immersive_guns:rpg7",
+  "use_default_animation": "rifle",
+  "lod": {
+    "model": "immersive_guns:gun/lod/rpg7",
+    "texture": "immersive_guns:gun/lod/rpg7"
+  },
+  "transform": {
+    "scale": {
+      "thirdperson": [1, 1, 1],
+      "ground": [1, 1, 1],
+      "fixed": [1.5, 1.5, 1.5]
+    }
+  },
+  "sounds": {
+    "reload_empty": "immersive_guns:rpg7/rpg7_reload",
+    "inspect": "immersive_guns:rpg7/rpg7_inspect",
+    "inspect_empty": "immersive_guns:rpg7/rpg7_inspect_empty",
+    "draw": "immersive_guns:rpg7/rpg7_draw",
+    "put_away": "immersive_guns:rpg7/rpg7_put_away",
+    "shoot": "immersive_guns:rpg7/rpg7_shoot",
+    "shoot_3p": "immersive_guns:rpg7/rpg7_shoot",
+    "melee_push": "immersive_guns:melee_stock/melee_stock_02",
+    "melee_stock": "immersive_guns:melee_stock/melee_stock_03"
+  },
+  "offhand_show": {
+    "pos": [0, 20, 5],
+    "rotate": [-20, 0, 30],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 24, 4],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

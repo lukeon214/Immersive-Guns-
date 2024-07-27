@@ -1,0 +1,9 @@
+{
+  "slot": "immersive_guns:attachment/slot/muzzle_silence_mirage",
+  "model": "immersive_guns:attachment/muzzle_silence_mirage_geo",
+  "texture": "immersive_guns:attachment/uv/muzzle_silence_mirage",
+  "sounds": {
+    "install": "immersive_guns:attachments/muzzle_general",
+    "uninstall": "immersive_guns:attachments/muzzle_general"
+  }
+}

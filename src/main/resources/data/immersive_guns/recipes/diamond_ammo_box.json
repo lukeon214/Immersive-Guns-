@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "result": {
+    "item": "immersive_guns:ammo_box",
+    "nbt": {
+      "Level": 2
+    }
+  },
+  "pattern": [
+    "PIP",
+    "P P",
+    "PPP"
+  ],
+  "key": {
+    "I": {
+      "tag": "c:diamonds"
+    },
+    "P": {
+      "tag": "minecraft:planks"
+    }
+  }
+}

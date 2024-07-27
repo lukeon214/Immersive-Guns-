@@ -1,0 +1,20 @@
+{
+  "materials": [
+    {
+      "item": {
+        "tag": "c:iron_ingots"
+      },
+      "count": 24
+    },
+    {
+      "item": {
+        "tag": "c:copper_ingots"
+      },
+      "count": 8
+    }
+  ],
+  "result": {
+    "type": "gun",
+    "id": "immersive_guns:glock_18"
+  }
+}

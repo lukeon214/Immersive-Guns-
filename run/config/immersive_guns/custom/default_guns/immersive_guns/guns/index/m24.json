@@ -1,0 +1,7 @@
+{
+  "name": "imguns.gun.m24.name",
+  "display": "immersive_guns:m24_display",
+  "data": "immersive_guns:m24_data",
+  "tooltip": "imguns.gun.m24.desc",
+  "type": "sniper"
+}

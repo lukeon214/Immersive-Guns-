@@ -1,0 +1,22 @@
+{
+  "gun": {
+    "subtitle": "subtitle.immersive_guns.gun",
+    "sounds": [
+      {
+        "name": "immersive_guns:gun/empty"
+      }
+    ]
+  },
+  "target_block_hit": {
+    "subtitle": "subtitle.immersive_guns.target_block_hit",
+    "sounds": [
+      "immersive_guns:block/target_block_hit/target_block_hit_1",
+      "immersive_guns:block/target_block_hit/target_block_hit_2",
+      "immersive_guns:block/target_block_hit/target_block_hit_3",
+      "immersive_guns:block/target_block_hit/target_block_hit_4",
+      "immersive_guns:block/target_block_hit/target_block_hit_5",
+      "immersive_guns:block/target_block_hit/target_block_hit_6",
+      "immersive_guns:block/target_block_hit/target_block_hit_7"
+    ]
+  }
+}

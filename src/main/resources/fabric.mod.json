@@ -1,0 +1,62 @@
+{
+	"schemaVersion": 1,
+	"id": "immersive_guns",
+	"version": "${version}",
+	"name": "Immersive Guns",
+	"description": "",
+	"authors": [
+		"Serene Wave Studio & TacZ dev Team | Modified by lukeon"
+	],
+	"contact": {
+		"discord": "https://discord.gg/fUdzeTz5ph",
+		"issues": "https://discord.gg/fUdzeTz5ph",
+		"sources": "https://github.com/We-Cant-Coding/immersive_guns"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/immersive_guns/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.imguns.guns.GunMod"
+		],
+		"client": [
+			"com.imguns.guns.GunModClient"
+		],
+		"cardinal-components": [
+			"com.imguns.guns.GunModComponents"
+		],
+		"modmenu": [
+			"com.imguns.guns.compat.modmenu.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"immersive_guns.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "1.20.1",
+		"java": ">=17",
+		"fabric-api": "*",
+		"forgeconfigapiport": ">=8.0.0",
+		"cardinal-components-base": ">=5.2.2",
+		"cardinal-components-entity": ">=5.2.2",
+		"porting_lib_core": ">=2.3.4+1.20.1",
+		"porting_lib_tags": "*",
+		"porting_lib_entity": ">=2.3.4+1.20.1",
+		"mkb": ">=1.2.0"
+	},
+	"custom": {
+		"loom:injected_interfaces": {
+			"net/minecraft/class_276": [
+				"com/imguns/guns/api/mixin/FramebufferStencil"
+			],
+			"net/minecraft/class_1309": [
+				"com/imguns/guns/api/mixin/ItemHandlerCapability"
+			]
+		},
+		"cardinal-components": [
+			"immersive_guns:synced_entity_data"
+		]
+	},
+	"accessWidener": "immersive_guns.accesswidener"
+}

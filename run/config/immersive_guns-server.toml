@@ -1,0 +1,32 @@
+
+[interact_key]
+	#These whitelist entities can be interacted with when the interact key is pressed
+	InteractKeyWhitelistEntities = []
+	#These blacklist blocks can be interacted with when the interact key is pressed
+	InteractKeyBlacklistBlocks = []
+	#These blacklist entities can be interacted with when the interact key is pressed
+	InteractKeyBlacklistEntities = []
+	#These whitelist blocks can be interacted with when the interact key is pressed
+	InteractKeyWhitelistBlocks = []
+
+[base_multiplier]
+	#All armor ignore damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	ArmorIgnoreBaseMultiplier = 1.0
+	#All head shot damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	HeadShotBaseMultiplier = 1.0
+	#All base damage number is multiplied by this factor
+	#Range: 0.0 ~ 1.7976931348623157E308
+	DamageBaseMultiplier = 1.0
+
+[misc]
+	#The gun pack that the client player needs to download, needs to fill in the URL and the SHA1 value of the file
+	ClientGunPackDownloadUrls = []
+	#The maximum stack size of ammo that the ammo box can hold
+	#Range: > 1
+	AmmoBoxStackSize = 3
+	#The entity's head hitbox during the headshot
+	#Format: touhou_little_maid:maid [-0.5, 1.0, -0.5, 0.5, 1.5, 0.5]
+	HeadShotAABB = []
+

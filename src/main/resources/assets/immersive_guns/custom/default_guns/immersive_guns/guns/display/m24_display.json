@@ -1,0 +1,50 @@
+{
+  "model": "immersive_guns:gun/24_geo",
+  "texture": "immersive_guns:gun/uv/m24",
+  "lod": {
+    "model": "immersive_guns:gun/lod/m24",
+    "texture": "immersive_guns:gun/lod/m24"
+  },
+  "hud": "immersive_guns:gun/hud/m24",
+  "slot": "immersive_guns:gun/slot/m24",
+  "animation": "immersive_guns:ai_awp",
+  "use_default_animation": "rifle",
+  "transform": {
+    "scale": {
+      "thirdperson": [0.6, 0.6, 0.6],
+      "ground": [0.6, 0.6, 0.6],
+      "fixed": [1.2, 1.2, 1.2]
+    }
+  },
+  "muzzle_flash": {
+    "texture": "immersive_guns:flash/common_muzzle_flash",
+    "scale": 1
+  },
+  "sounds": {
+    "reload_empty": "immersive_guns:ai_awp/",
+    "reload_tactical": "immersive_guns:ai_awp/",
+    "inspect": "immersive_guns:ai_awp/",
+    "inspect_empty": "immersive_guns:ai_awp/",
+    "draw": "immersive_guns:ai_awp/",
+    "shoot": "immersive_guns:ai_awp/",
+    "shoot_3p": "immersive_guns:ai_awp/",
+    "silence": "immersive_guns:ai_awp/",
+    "silence_3p": "immersive_guns:ai_awp/",
+    "bolt": "immersive_guns:ai_awp/",
+    "put_away": "immersive_guns:ai_awp/",
+    "melee_push": "immersive_guns:melee_stock/",
+    "melee_stock": "immersive_guns:melee_stock/"
+  },
+  "offhand_show": {
+    "pos": [-2, 20, 4],
+    "rotate": [0, 0, 45],
+    "scale": [0.5, 0.5, 0.5]
+  },
+  "hotbar_show": {
+    "0": {
+      "pos": [-4, 26, 3],
+      "rotate": [-90, -5, -90],
+      "scale": [0.5, 0.5, 0.5]
+    }
+  }
+}

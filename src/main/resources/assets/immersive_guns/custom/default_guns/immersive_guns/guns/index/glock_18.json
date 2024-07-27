@@ -1,0 +1,7 @@
+{
+  "name": "immersiveguns.gun.glock_18.name",
+  "display": "immersive_guns:glock_18_display",
+  "data": "immersive_guns:glock_18_data",
+  "tooltip": "immersiveguns.gun.glock_17.desc",
+  "type": "pistol"
+}

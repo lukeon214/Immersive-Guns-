@@ -1,0 +1,681 @@
+[20:14:24] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.1 with Fabric Loader 0.15.11
+[20:14:24] [main/INFO] (FabricLoader) Loading 75 mods:
+	- cardinal-components-base 5.2.2
+	- cardinal-components-entity 5.2.2
+	- cloth-basic-math 0.6.1
+	- cloth-config 11.1.118
+	- dummmmmmy 1.20-1.8.17b
+	- fabric-api 0.92.2+1.20.1
+	- fabric-api-base 0.4.31+1802ada577
+	- fabric-api-lookup-api-v1 1.6.36+1802ada577
+	- fabric-biome-api-v1 13.0.13+1802ada577
+	- fabric-block-api-v1 1.0.11+1802ada577
+	- fabric-block-view-api-v2 1.0.1+1802ada577
+	- fabric-blockrenderlayer-v1 1.1.41+1802ada577
+	- fabric-client-tags-api-v1 1.1.2+1802ada577
+	- fabric-command-api-v1 1.2.34+f71b366f77
+	- fabric-command-api-v2 2.2.13+1802ada577
+	- fabric-commands-v0 0.2.51+df3654b377
+	- fabric-containers-v0 0.1.64+df3654b377
+	- fabric-content-registries-v0 4.0.11+1802ada577
+	- fabric-convention-tags-v1 1.5.5+1802ada577
+	- fabric-crash-report-info-v1 0.2.19+1802ada577
+	- fabric-data-attachment-api-v1 1.0.0+de0fd6d177
+	- fabric-data-generation-api-v1 12.3.4+1802ada577
+	- fabric-dimensions-v1 2.1.54+1802ada577
+	- fabric-entity-events-v1 1.6.0+1c78457f77
+	- fabric-events-interaction-v0 0.6.2+1802ada577
+	- fabric-events-lifecycle-v0 0.2.63+df3654b377
+	- fabric-game-rule-api-v1 1.0.40+1802ada577
+	- fabric-gametest-api-v1 1.2.13+1802ada577
+	- fabric-item-api-v1 2.1.28+1802ada577
+	- fabric-item-group-api-v1 4.0.12+1802ada577
+	- fabric-key-binding-api-v1 1.0.37+1802ada577
+	- fabric-keybindings-v0 0.2.35+df3654b377
+	- fabric-lifecycle-events-v1 2.2.22+1802ada577
+	- fabric-loot-api-v2 1.2.1+1802ada577
+	- fabric-loot-tables-v1 1.1.45+9e7660c677
+	- fabric-message-api-v1 5.1.9+1802ada577
+	- fabric-mining-level-api-v1 2.1.50+1802ada577
+	- fabric-model-loading-api-v1 1.0.3+1802ada577
+	- fabric-models-v0 0.4.2+9386d8a777
+	- fabric-networking-api-v1 1.3.11+1802ada577
+	- fabric-networking-v0 0.3.51+df3654b377
+	- fabric-object-builder-api-v1 11.1.3+1802ada577
+	- fabric-particles-v1 1.1.2+1802ada577
+	- fabric-recipe-api-v1 1.0.21+1802ada577
+	- fabric-registry-sync-v0 2.3.3+1802ada577
+	- fabric-renderer-api-v1 3.2.1+1802ada577
+	- fabric-renderer-indigo 1.5.2+85287f9f77
+	- fabric-renderer-registries-v1 3.2.46+df3654b377
+	- fabric-rendering-data-attachment-v1 0.3.37+92a0d36777
+	- fabric-rendering-fluids-v1 3.0.28+1802ada577
+	- fabric-rendering-v0 1.1.49+df3654b377
+	- fabric-rendering-v1 3.0.8+1802ada577
+	- fabric-resource-conditions-api-v1 2.3.8+1802ada577
+	- fabric-resource-loader-v0 0.11.10+1802ada577
+	- fabric-screen-api-v1 2.0.8+1802ada577
+	- fabric-screen-handler-api-v1 1.3.30+1802ada577
+	- fabric-sound-api-v1 1.0.13+1802ada577
+	- fabric-transfer-api-v1 3.3.5+8dd72ea377
+	- fabric-transitive-access-wideners-v1 4.3.1+1802ada577
+	- fabricloader 0.15.11
+	- forgeconfigapiport 8.0.0
+	- immersive_guns 1.4
+	- java 21
+	- jei 15.4.0.9
+	- minecraft 1.20.1
+	- mixinextras 0.3.5
+	- mkb 1.2.0
+	- modmenu 7.2.2
+	- moonlight 1.20-2.12.6
+	- player-animator 1.0.2-rc1+1.20
+	- porting_lib_core 2.3.4+1.20.1
+	- porting_lib_entity 2.3.4+1.20.1
+	- porting_lib_mixin_extensions 2.3.4+1.20.1
+	- porting_lib_tags 3.0
+	- shouldersurfing 4.1.5
+[20:14:25] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/C:/Users/Lukeon214/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[20:14:25] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[20:14:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[20:14:25] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[20:14:25] [main/WARN] (FabricLoader/Mixin) Error loading class: com/mrcrayfish/guns/client/handler/RecoilHandler (java.lang.ClassNotFoundException: com/mrcrayfish/guns/client/handler/RecoilHandler)
+[20:14:25] [main/WARN] (FabricLoader/Mixin) Error loading class: yesman/epicfight/client/events/engine/RenderEngine (java.lang.ClassNotFoundException: yesman/epicfight/client/events/engine/RenderEngine)
+[20:14:25] [main/WARN] (FabricLoader/Mixin) Error loading class: dev/tr7zw/skinlayers/render/CustomizableModelPart (java.lang.ClassNotFoundException: dev/tr7zw/skinlayers/render/CustomizableModelPart)
+[20:14:25] [main/WARN] (FabricLoader/Mixin) Error loading class: mcjty/theoneprobe/rendering/OverlayRenderer (java.lang.ClassNotFoundException: mcjty/theoneprobe/rendering/OverlayRenderer)
+[20:14:26] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[20:14:28] [main/WARN] (FabricLoader/Mixin) @Inject(@At("INVOKE")) Shift.BY=2 on porting_lib_entity.mixins.json:common.LivingEntityMixin from mod porting_lib_entity::handler$bdl000$porting_lib_entity$port_lib$onFinishUsing exceeds the maximum allowed value: 0. Increase the value of maxShiftBy to suppress this warning.
+[20:14:31] [Datafixer Bootstrap/INFO] (Minecraft) 188 Datafixer optimizations took 132 milliseconds
+[20:14:34] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[20:14:34] [Render thread/INFO] (Minecraft) Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[20:14:34] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
+	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:56) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:156) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:55) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:124) ~[authlib-4.0.43.jar:?]
+	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:733) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:442) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:211) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
+	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:85) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:48) ~[authlib-4.0.43.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:129) ~[authlib-4.0.43.jar:?]
+	... 9 more
+[20:14:34] [Render thread/INFO] (Minecraft) Setting user: Player691
+[20:14:35] [Render thread/INFO] (Moonlight) Loaded config moonlight-client.json
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:shoot_cool_down for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:melee_cool_down for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:reload_state for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:aiming_progress for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:draw_cool_down for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:is_aiming for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:sprint_time for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (immersive_guns) Registered synced data key immersive_guns:bolt_cool_down for minecraft:living_entity
+[20:14:35] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[20:14:35] [Render thread/INFO] (ShoulderSurfing) Registering plugin for Shoulder Surfing Reloaded (shouldersurfing)
+[20:14:36] [Render thread/INFO] (PluginCaller) Sending ConfigManager...
+[20:14:36] [Render thread/INFO] (PluginCaller) Sending ConfigManager took 2.310 ms
+[20:14:36] [Render thread/INFO] (Moonlight) Initialized block sets in 8ms
+[20:14:36] [Render thread/ERROR] (Minecraft) No data fixer registered for target_dummy
+[20:14:36] [Render thread/INFO] (Moonlight) Loaded config dummmmmmy-common.json
+[20:14:36] [Render thread/INFO] (Moonlight) Loaded config dummmmmmy-client.json
+[20:14:36] [Render thread/INFO] (Moonlight) Initialized color sets in 14ms
+[20:14:36] [Worker-Main-1/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[20:14:37] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[20:14:39] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-crash-report-info-v1, fabric-screen-api-v1, fabric-api-lookup-api-v1, fabric-sound-api-v1, fabric-renderer-indigo, fabric-mining-level-api-v1, fabric-api, jei, fabric-command-api-v2, porting_lib_mixin_extensions, fabric-data-attachment-api-v1, fabric-key-binding-api-v1, fabric-recipe-api-v1, fabric-transfer-api-v1, fabric-events-interaction-v0, porting_lib_tags, fabric-api-base, fabric-convention-tags-v1, fabric-content-registries-v0, fabric-dimensions-v1, cardinal-components-base, fabric-events-lifecycle-v0, fabric-item-api-v1, fabric-resource-conditions-api-v1, fabric-screen-handler-api-v1, porting_lib_core, fabric-block-api-v1, fabricloader, fabric-message-api-v1, moonlight, fabric-object-builder-api-v1, fabric-networking-api-v1, fabric-rendering-fluids-v1, fabric-command-api-v1, fabric-registry-sync-v0, fabric-loot-tables-v1, fabric-transitive-access-wideners-v1, fabric-gametest-api-v1, fabric-containers-v0, fabric-loot-api-v2, fabric-renderer-api-v1, fabric-lifecycle-events-v1, fabric-entity-events-v1, fabric-networking-v0, immersive_guns, fabric-models-v0, fabric-blockrenderlayer-v1, fabric-model-loading-api-v1, dummmmmmy, fabric-rendering-v1, fabric-data-generation-api-v1, fabric-keybindings-v0, cloth-config, forgeconfigapiport, cardinal-components-entity, fabric-item-group-api-v1, fabric-resource-loader-v0, porting_lib_entity, fabric-renderer-registries-v1, fabric-biome-api-v1, fabric-client-tags-api-v1, fabric-rendering-v0, modmenu, fabric-block-view-api-v2, fabric-game-rule-api-v1, fabric-particles-v1, fabric-rendering-data-attachment-v1, fabric-commands-v0), Moonlight Mods Dynamic Assets
+[20:14:39] [Render thread/INFO] (Moonlight) Generated runtime CLIENT_RESOURCES for pack Moonlight Mods Dynamic Assets (moonlight) in: 4 ms (debug resource dump on)
+[20:14:39] [Worker-Main-10/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_1.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_2.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_3.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_4.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_5.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_6.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Worker-Main-1/WARN] (Minecraft) File immersive_guns:sounds/block/target_block_hit/target_block_hit_7.ogg does not exist, cannot add it to event immersive_guns:target_block_hit
+[20:14:39] [Realms Notification Availability checker #1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[20:14:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[20:14:40] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[20:14:41] [Render thread/INFO] (Minecraft) OpenAL initialized on device OpenAL Soft on Headset Earphone (HyperX Virtual Surround Sound)
+[20:14:41] [Render thread/INFO] (Minecraft) Sound engine started
+[20:14:41] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:ak47 index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:ak47
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:m249 index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:m249
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:db_short index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:db_short
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:hk_mp5a5 index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:hk_mp5a5
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:m24 index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: there is no corresponding model file
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkTextureAndModel(ClientGunIndex.java:151)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:78)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/WARN] (immersive_guns) immersive_guns:rpg7 index file read fail!
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:rpg7
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.event.ReloadResourceEvent.onTextureStitchEventPost(ReloadResourceEvent.java:15)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.handler$zpg000$immersive_guns$uploadPost(SpriteAtlasTexture.java:1516)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.texture.SpriteAtlasTexture.upload(SpriteAtlasTexture.java:105)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.SpriteAtlasManager$AtlasPreparation.upload(SpriteAtlasManager.java:68)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$Values.forEach(HashMap.java:1073)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.upload(BakedModelManager.java:182)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.render.model.BakedModelManager.method_45882(BakedModelManager.java:95)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:69)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:14:42] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[20:14:42] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x128x0 jei:textures/atlas/gui.png-atlas
+[20:14:42] [Render thread/INFO] (Minecraft) Created: 256x256x0 moonlight:textures/atlas/map_markers.png-atlas
+[20:14:52] [Worker-Main-5/ERROR] (Minecraft) Couldn't load tag immersive_guns:interact_key/whitelist as it is missing following references: immersive_guns:statue (from fabric)
+[20:14:52] [Worker-Main-4/ERROR] (Minecraft) Couldn't parse element loot_tables:immersive_guns:blocks/statue
+java.lang.IllegalArgumentException: Can't find block immersive_guns:statue
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.method_17937(BlockStatePropertyLootCondition.java:79) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.fromJson(BlockStatePropertyLootCondition.java:79) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.fromJson(BlockStatePropertyLootCondition.java:68) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:250) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:246) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.loot.LootDataType.method_51205(LootDataType.java:64) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootDataType.parse(LootDataType.java:48) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootManager.method_51195(LootManager.java:55) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.loot.LootManager.method_51189(LootManager.java:55) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20:14:52] [Worker-Main-4/ERROR] (Minecraft) Couldn't parse element loot_tables:immersive_guns:blocks/target
+java.lang.IllegalArgumentException: Can't find block immersive_guns:target
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.method_17937(BlockStatePropertyLootCondition.java:79) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.Optional.orElseThrow(Optional.java:403) ~[?:?]
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.fromJson(BlockStatePropertyLootCondition.java:79) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.condition.BlockStatePropertyLootCondition$Serializer.fromJson(BlockStatePropertyLootCondition.java:68) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:85) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.entry.LootPoolEntry$Serializer.fromJson(LootPoolEntry.java:74) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonSerializing$GsonSerializer.deserialize(JsonSerializing.java:102) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:471) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:173) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootPool$Serializer.deserialize(LootPool.java:169) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TypeAdapterRuntimeTypeWrapper.read(TypeAdapterRuntimeTypeWrapper.java:40) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.ArrayTypeAdapter.read(ArrayTypeAdapter.java:72) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1290) ~[gson-2.10.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter$GsonContextImpl.deserialize(TreeTypeAdapter.java:179) ~[gson-2.10.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:463) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.util.JsonHelper.deserialize(JsonHelper.java:481) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:250) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootTable$Serializer.deserialize(LootTable.java:246) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at com.google.gson.internal.bind.TreeTypeAdapter.read(TreeTypeAdapter.java:76) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1214) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1319) ~[gson-2.10.jar:?]
+	at com.google.gson.Gson.fromJson(Gson.java:1261) ~[gson-2.10.jar:?]
+	at net.minecraft.loot.LootDataType.method_51205(LootDataType.java:64) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootDataType.parse(LootDataType.java:48) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at net.minecraft.loot.LootManager.method_51195(LootManager.java:55) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.HashMap.forEach(HashMap.java:1429) ~[?:?]
+	at net.minecraft.loot.LootManager.method_51189(LootManager.java:55) ~[minecraft-merged-d8dda4d153-1.20.1-net.fabricmc.yarn.1_20_1.1.20.1+build.10-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804) ~[?:?]
+	at java.util.concurrent.CompletableFuture$AsyncRun.exec(CompletableFuture.java:1796) ~[?:?]
+	at java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:387) ~[?:?]
+	at java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1312) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1843) ~[?:?]
+	at java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1808) ~[?:?]
+	at java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:188) ~[?:?]
+[20:14:52] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[20:14:52] [Render thread/INFO] (Minecraft) Loaded 1272 advancements
+[20:14:53] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[20:14:53] [Render thread/INFO] (JeiStarter) Stopping JEI
+[20:14:53] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[20:14:53] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[20:14:53] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 448.1 ?s
+[20:14:53] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 2.524 ms
+[20:14:53] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.1
+[20:14:53] [Server thread/INFO] (Minecraft) Generating keypair
+[20:14:54] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[20:14:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:57] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[20:14:57] [Render thread/INFO] (Minecraft) Time elapsed: 3026 ms
+[20:14:57] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[20:14:57] [Server thread/INFO] (Minecraft) Changing simulation distance to 12, from 0
+[20:14:58] [Server thread/INFO] (Minecraft) Player691[local:E:b79faa5b] logged in with entity id 106 at (85.28905855681073, 122.9375, 231.78901272394356)
+[20:14:58] [Server thread/INFO] (Minecraft) Player691 joined the game
+[20:14:59] [Render thread/INFO] (LoggedTimer) Starting JEI...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering item subtypes...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering item subtypes took 6.053 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering fluid subtypes...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering fluid subtypes took 4.102 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering ingredients...
+[20:14:59] [Render thread/INFO] (PluginCallerTimerRunnable) Registering ingredients: jei:minecraft took 83.56 milliseconds
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering ingredients took 84.26 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering categories...
+[20:14:59] [Render thread/INFO] (PluginCallerTimerRunnable) Registering categories: jei:minecraft took 43.44 milliseconds
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering categories took 46.67 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering vanilla category extensions took 6.342 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipe catalysts...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipe catalysts took 1.024 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering advanced plugins...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering advanced plugins took 321.7 ?s
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building recipe registry...
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building recipe registry took 19.53 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipes...
+[20:14:59] [Render thread/INFO] (PluginCallerTimerRunnable) Registering recipes: jei:minecraft took 250.0 milliseconds
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipes took 250.7 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering recipes transfer handlers took 4.507 ms
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building runtime...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering gui handlers...
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering gui handlers took 15.66 ms
+[20:14:59] [Render thread/INFO] (PluginCaller) Registering Runtime...
+[20:14:59] [Render thread/INFO] (JeiGuiStarter) Starting JEI GUI
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building ingredient list...
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building ingredient list took 4.989 ms
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building ingredient filter...
+[20:14:59] [Render thread/INFO] (IngredientFilter) Adding 1519 ingredients
+[20:14:59] [Render thread/INFO] (IngredientFilter) Added 1519 ingredients
+[20:14:59] [Render thread/INFO] (LoggedTimer) Building ingredient filter took 232.4 ms
+[20:15:00] [Render thread/INFO] (PluginCallerTimerRunnable) Registering Runtime: jei:fabric_gui took 368.5 milliseconds
+[20:15:00] [Render thread/INFO] (PluginCaller) Registering Runtime took 369.2 ms
+[20:15:00] [Render thread/INFO] (LoggedTimer) Building runtime took 412.5 ms
+[20:15:00] [Render thread/INFO] (PluginCaller) Sending Runtime...
+[20:15:00] [Render thread/INFO] (PluginCaller) Sending Runtime took 314.0 ?s
+[20:15:00] [Render thread/INFO] (LoggedTimer) Starting JEI took 936.9 ms
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:ak47 index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:ak47
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:m249 index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:m249
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:db_short index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:db_short
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:hk_mp5a5 index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:hk_mp5a5
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:m24 index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: there is no corresponding model file
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:145)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkTextureAndModel(ClientGunIndex.java:151)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:78)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/WARN] (immersive_guns) immersive_guns:rpg7 index file read fail!
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: java.lang.IllegalArgumentException: animation not found: immersive_guns:rpg7
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.checkAnimation(ClientGunIndex.java:209)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.index.ClientGunIndex.getInstance(ClientGunIndex.java:82)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.lambda$loadGunIndex$0(ClientGunIndexLoader.java:21)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at java.base/java.util.HashMap$EntrySet.forEach(HashMap.java:1134)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.loader.index.ClientGunIndexLoader.loadGunIndex(ClientGunIndexLoader.java:17)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientGunPackLoader.reloadIndex(ClientGunPackLoader.java:92)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.client.resource.ClientReloadManager.reloadAllPack(ClientReloadManager.java:29)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.doSync(ServerMessageSyncGunPack.java:55)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at com.imguns.guns.network.message.ServerMessageSyncGunPack.handle(ServerMessageSyncGunPack.java:39)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking$1.lambda$receive$0(ClientPlayNetworking.java:111)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:156)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:130)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:115)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1175)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:802)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.minecraft.client.main.Main.main(Main.java:250)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[20:15:00] [Render thread/INFO] (Minecraft) [STDERR]: 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86)
+[20:15:00] [Render thread/INFO] (Minecraft) Loaded 2 advancements
+[20:15:05] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:15:06] [Render thread/INFO] (Minecraft) Stopping!
+[20:15:06] [Render thread/INFO] (ClientLifecycleHandler) Stopping JEI
+[20:15:06] [Render thread/INFO] (JeiStarter) Stopping JEI
+[20:15:06] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable...
+[20:15:06] [Render thread/INFO] (FabricGuiPlugin) Stopping JEI GUI
+[20:15:06] [Render thread/INFO] (PluginCaller) Sending Runtime Unavailable took 457.5 ?s
+[20:15:06] [Server thread/INFO] (Minecraft) Player691 lost connection: Disconnected
+[20:15:06] [Server thread/INFO] (Minecraft) Player691 left the game
+[20:15:06] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[20:15:06] [Server thread/INFO] (Minecraft) Stopping server
+[20:15:06] [Server thread/INFO] (Minecraft) Saving players
+[20:15:06] [Server thread/INFO] (Minecraft) Saving worlds
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[20:15:06] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[20:15:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (New World): All chunks are saved
+[20:15:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[20:15:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[20:15:06] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved

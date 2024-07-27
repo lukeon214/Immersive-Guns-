@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "conditions": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "immersive_guns:statue",
+              "properties": {
+                "half": "lower"
+              }
+            }
+          ],
+          "name": "immersive_guns:statue"
+        }
+      ],
+      "rolls": 1
+    }
+  ]
+}

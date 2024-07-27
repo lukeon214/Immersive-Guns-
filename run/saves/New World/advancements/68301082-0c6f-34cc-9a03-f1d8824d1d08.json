@@ -1,0 +1,56 @@
+{
+  "minecraft:recipes/brewing/fermented_spider_eye": {
+    "criteria": {
+      "has_spider_eye": "2024-07-27 11:57:24 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-07-27 11:53:43 +0200"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/dispenser": {
+    "criteria": {
+      "has_bow": "2024-07-27 11:57:56 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-27 11:55:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2024-07-27 11:55:30 +0200",
+      "minecraft:spider": "2024-07-27 11:56:54 +0200",
+      "minecraft:creeper": "2024-07-27 11:55:40 +0200",
+      "minecraft:witch": "2024-07-27 11:58:14 +0200",
+      "minecraft:zombie": "2024-07-27 11:55:38 +0200",
+      "minecraft:zombie_villager": "2024-07-27 11:55:41 +0200"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2024-07-27 11:57:57 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:skeleton": "2024-07-27 11:55:30 +0200"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:meadow": "2024-07-27 11:53:48 +0200"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}
