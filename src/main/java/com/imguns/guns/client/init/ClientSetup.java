@@ -13,6 +13,7 @@ import com.imguns.guns.init.ModItems;
 import com.imguns.guns.inventory.tooltip.AmmoBoxTooltip;
 import com.imguns.guns.inventory.tooltip.AttachmentItemTooltip;
 import com.imguns.guns.inventory.tooltip.GunTooltip;
+import com.imguns.guns.compat.zoomify.ZoomifyCompat;
 import com.imguns.guns.item.AmmoBoxItem;
 import com.imguns.guns.mixin.client.MinecraftClientAccessor;
 import committee.nova.mkb.api.IKeyBinding;
@@ -94,5 +95,6 @@ public class ClientSetup {
         ShoulderSurfingCompat.init();
 
         ImmediatelyFastCompat.init();
+        ZoomifyCompat.init();
     }
 }

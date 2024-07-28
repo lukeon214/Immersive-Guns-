@@ -32,6 +32,16 @@ key_key.hotbar.6:key.keyboard.6:NONE
 key_key.hotbar.7:key.keyboard.7:NONE
 key_key.hotbar.8:key.keyboard.8:NONE
 key_key.hotbar.9:key.keyboard.9:NONE
+key_key.modmenu.open_menu:key.keyboard.unknown:NONE
+key_Camera left:key.keyboard.left:NONE
+key_Camera right:key.keyboard.right:NONE
+key_Camera closer:key.keyboard.up:NONE
+key_Camera farther:key.keyboard.down:NONE
+key_Camera up:key.keyboard.page.up:NONE
+key_Camera down:key.keyboard.page.down:NONE
+key_Swap shoulder:key.keyboard.o:NONE
+key_Toggle perspective:key.keyboard.unknown:NONE
+key_Free look:key.keyboard.left.alt:NONE
 key_key.immersive_guns.inspect.desc:key.keyboard.f:NONE
 key_key.immersive_guns.reload.desc:key.keyboard.r:NONE
 key_key.immersive_guns.shoot.desc:key.mouse.left:NONE
@@ -42,13 +52,3 @@ key_key.immersive_guns.refit.desc:key.keyboard.z:NONE
 key_key.immersive_guns.zoom.desc:key.keyboard.c:NONE
 key_key.immersive_guns.melee.desc:key.keyboard.v:NONE
 key_key.immersive_guns.open_config.desc:key.keyboard.t:ALT
-key_Camera left:key.keyboard.left:NONE
-key_Camera right:key.keyboard.right:NONE
-key_Camera closer:key.keyboard.up:NONE
-key_Camera farther:key.keyboard.down:NONE
-key_Camera up:key.keyboard.page.up:NONE
-key_Camera down:key.keyboard.page.down:NONE
-key_Swap shoulder:key.keyboard.o:NONE
-key_Toggle perspective:key.keyboard.unknown:NONE
-key_Free look:key.keyboard.left.alt:NONE
-key_key.modmenu.open_menu:key.keyboard.unknown:NONE

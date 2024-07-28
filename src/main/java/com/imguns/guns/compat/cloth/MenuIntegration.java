@@ -14,7 +14,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class MenuIntegration {
     public static ConfigBuilder getConfigBuilder() {
-        ConfigBuilder root = ConfigBuilder.create().setTitle(Text.literal("Timeless and Classics Guns"));
+        ConfigBuilder root = ConfigBuilder.create().setTitle(Text.literal("Immersive Guns"));
         root.setGlobalized(true);
         root.setGlobalizedExpanded(false);
         ConfigEntryBuilder entryBuilder = root.entryBuilder();

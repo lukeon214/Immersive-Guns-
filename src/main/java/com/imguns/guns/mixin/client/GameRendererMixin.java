@@ -1,5 +1,7 @@
 package com.imguns.guns.mixin.client;
 
+import com.imguns.guns.api.mixin.CameraAngles;
+import com.imguns.guns.compat.zoomify.ZoomifyCompat;
 import com.llamalad7.mixinextras.sugar.Local;
 import com.imguns.guns.api.client.event.RenderItemInHandBobEvent;
 import com.imguns.guns.api.client.event.RenderLevelBobEvent;
@@ -76,22 +78,21 @@ public abstract class GameRendererMixin {
         this.imguns$useFovSetting = pUseFOVSetting;
     }
 
-    @Inject(method = "renderWorld", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/Camera;update(Lnet/minecraft/world/BlockView;Lnet/minecraft/entity/Entity;ZZF)V"))
+    @Inject(method = "renderWorld", at = @At(value = "INVOKE", target = "Lnet/minecraft/client/render/Camera;update(Lnet/minecraft/world/BlockView;Lnet/minecraft/entity/Entity;ZZF)V", shift = At.Shift.AFTER))
     private void renderWorld(float tickDelta, long limitTime, MatrixStack matrices, CallbackInfo ci, @Local Camera camera) {
         var event = new ViewportEvent.ComputeCameraAngles((GameRenderer)(Object) this, camera, tickDelta, camera.getYaw(), camera.getPitch(), 0.0F);
         event.post();
-        ((CameraAccessor) camera).setYaw(event.getYaw());
-        ((CameraAccessor) camera).setPitch(event.getPitch());
+        ((CameraAngles) camera).setAnglesInternal(event.getYaw(), event.getPitch());
         matrices.multiply(RotationAxis.POSITIVE_Z.rotationDegrees(event.getRoll()));
     }
 
 
-    @Inject(method = "getFov", at = @At(value = "RETURN", ordinal = 1), cancellable = true)
-    private void getFov(Camera camera, float tickDelta, boolean changingFov, CallbackInfoReturnable<Double> cir, @Local double d) {
+    @Inject(method = "getFov", at = @At(value = "RETURN"), cancellable = true)
+    private void getFov(Camera camera, float tickDelta, boolean changingFov, CallbackInfoReturnable<Double> cir) {
         if (!renderingPanorama) {
-            var event = new ViewportEvent.ComputeFov((GameRenderer)(Object) this, camera, tickDelta, d, changingFov);
+            var event = new ViewportEvent.ComputeFov((GameRenderer)(Object) this, camera, tickDelta, cir.getReturnValue(), changingFov);
             event.post();
-            cir.setReturnValue(event.getFOV());
+            cir.setReturnValue(ZoomifyCompat.getFov(event.getFOV(), tickDelta));
         }
     }
 }

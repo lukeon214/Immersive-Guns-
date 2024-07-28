@@ -11,7 +11,7 @@
   "commands.immersive_guns.reload.overwrite_command.on": "§a§l●§r You can use command §c§n/imguns overwrite false§r to disable overwrite feature.",
   "commands.immersive_guns.reload.overwrite_command.off": "§a§l●§r You can use command §c§n/imguns overwrite true§r to enable overwrite feature.",
   "message.immersive_guns.fire_select.fail": "Unknown fire mode, unable to shoot",
-  "key.category.imguns": "Timeless & Classics Guns: Zero",
+  "key.category.imguns": "Immersive Guns",
   "message.immersive_guns.target_minecart.hit": "Damage: %s Distance: %s",
   "key.immersive_guns.reload.desc": "Reload",
   "key.immersive_guns.inspect.desc": "Inspect",
