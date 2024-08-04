@@ -337,9 +337,9 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     @Override
     public void render(@NotNull DrawContext graphics, int mouseX, int mouseY, float partialTick) {
         super.render(graphics, mouseX, mouseY, partialTick);
-        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.preview"), x + 108, y + 5, 0x555555);
+        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.preview"), x + 108, y + 5, 0x00ff00);
         graphics.drawText(textRenderer, Text.translatable(String.format("imguns.type.%s.name", selectedType)), x + 150, y + 32, 0x555555, false);
-        graphics.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.ingredient"), x + 254, y + 50, 0x555555, false);
+        graphics.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.ingredient"), x + 254, y + 50, 0x00ff00, true);
         drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.craft"), x + 312, y + 167, 0xFFFFFF);
         if (this.selectedRecipe != null) {
             this.renderLeftModel(this.selectedRecipe);
