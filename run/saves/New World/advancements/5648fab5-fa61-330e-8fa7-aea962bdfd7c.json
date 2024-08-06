@@ -5,18 +5,18 @@
     },
     "done": true
   },
-  "minecraft:adventure/root": {
-    "criteria": {
-      "killed_something": "2024-07-27 11:41:41 +0200"
-    },
-    "done": true
-  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:meadow": "2024-07-27 11:41:19 +0200",
       "minecraft:plains": "2024-07-27 11:40:36 +0200"
     },
     "done": false
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2024-07-27 11:41:41 +0200"
+    },
+    "done": true
   },
   "DataVersion": 3465
 }
