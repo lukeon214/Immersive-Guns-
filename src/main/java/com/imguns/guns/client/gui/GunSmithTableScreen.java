@@ -172,7 +172,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addCraftButton() {
-        this.addDrawableChild(new TexturedButtonWidget(x + 289, y + 162, 48, 18, 138, 164, 18, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 292, y + 134, 48, 18, 138, 164, 18, TEXTURE, b -> {
             if (this.selectedRecipe != null && playerIngredientCount != null) {
                 // 检查是否能合成，不能就不发包
                 List<GunSmithTableIngredient> inputs = selectedRecipe.getInputs();
@@ -194,7 +194,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addUrlButton() {
-        this.addDrawableChild(new TexturedButtonWidget(x + 112, y + 164, 18, 18, 149, 211, 18, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 224, y + 115, 18, 18, 149, 211, 18, TEXTURE, b -> {
             if (this.selectedRecipe != null) {
                 ItemStack output = selectedRecipe.getOutput();
                 Item item = output.getItem();
@@ -235,9 +235,9 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
             if (finalIndex >= selectedRecipeList.size()) {
                 break;
             }
-            int yOffset = y + 66 + 17 * i;
+            int yOffset = y + 39 + 17 * i;
             TimelessAPI.getRecipe(selectedRecipeList.get(finalIndex)).ifPresent(recipe -> {
-                ResultButton button = addDrawableChild(new ResultButton(x + 144, yOffset, recipe.getOutput(), b -> {
+                ResultButton button = addDrawableChild(new ResultButton(x + 8, yOffset, recipe.getOutput(), b -> {
                     this.selectedRecipe = recipe;
                     this.getPlayerIngredientCount(this.selectedRecipe);
                     this.init();
@@ -250,13 +250,13 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addTypeButtons() {
-        for (int i = 0; i < 7; i++) {
-            int typeIndex = typePage * 7 + i;
+        for (int i = 0; i < 8; i++) {
+            int typeIndex = typePage * 8 + i;
             if (typeIndex >= recipes.size()) {
                 return;
             }
             String type = recipeKeys.get(typeIndex);
-            int xOffset = x + 157 + 24 * i;
+            int xOffset = x + 132 + 24 * i;
             List<Identifier> recipeIdGroups = recipes.get(type);
             if (recipeIdGroups.isEmpty()) {
                 continue;
@@ -274,7 +274,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
 
     @NotNull
     private TypeButton getTypeButton(int xOffset, ItemStack icon, String type) {
-        TypeButton typeButton = new TypeButton(xOffset, y + 2, icon, b -> {
+        TypeButton typeButton = new TypeButton(xOffset, y + -4, icon, b -> {
             this.selectedType = type;
             this.selectedRecipeList = recipes.get(type);
             this.indexPage = 0;
@@ -289,13 +289,13 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addIndexPageButtons() {
-        this.addDrawableChild(new TexturedButtonWidget(x + 143, y + 56, 96, 6, 40, 166, 6, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 7, y + 29, 96, 6, 40, 166, 6, TEXTURE, b -> {
             if (this.indexPage > 0) {
                 this.indexPage--;
                 this.init();
             }
         }));
-        this.addDrawableChild(new TexturedButtonWidget(x + 143, y + 171, 96, 6, 40, 186, 6, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 7, y + 144, 96, 6, 40, 186, 6, TEXTURE, b -> {
             if (selectedRecipeList != null && !selectedRecipeList.isEmpty()) {
                 int maxIndexPage = (selectedRecipeList.size() - 1) / 6;
                 if (this.indexPage < maxIndexPage) {
@@ -307,13 +307,13 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addTypePageButtons() {
-        this.addDrawableChild(new TexturedButtonWidget(x + 136, y + 4, 18, 20, 0, 162, 20, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 112, y + -1, 18, 20, 0, 162, 20, TEXTURE, b -> {
             if (this.typePage > 0) {
                 this.typePage--;
                 this.init();
             }
         }));
-        this.addDrawableChild(new TexturedButtonWidget(x + 327, y + 4, 18, 20, 20, 162, 20, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 324, y + -1, 18, 20, 20, 162, 20, TEXTURE, b -> {
             int maxIndexPage = (recipes.size() - 1) / 7;
             if (this.typePage < maxIndexPage) {
                 this.typePage++;
@@ -323,13 +323,13 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     }
 
     private void addScaleButtons() {
-        this.addDrawableChild(new TexturedButtonWidget(x + 5, y + 5, 10, 10, 188, 173, 10, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 118, y + 123, 10, 10, 188, 173, 10, TEXTURE, b -> {
             this.scale = Math.min(this.scale + 20, 200);
         }));
-        this.addDrawableChild(new TexturedButtonWidget(x + 17, y + 5, 10, 10, 200, 173, 10, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 130, y + 123, 10, 10, 200, 173, 10, TEXTURE, b -> {
             this.scale = Math.max(this.scale - 20, 10);
         }));
-        this.addDrawableChild(new TexturedButtonWidget(x + 29, y + 5, 10, 10, 212, 173, 10, TEXTURE, b -> {
+        this.addDrawableChild(new TexturedButtonWidget(x + 142, y + 123, 10, 10, 212, 173, 10, TEXTURE, b -> {
             this.scale = 70;
         }));
     }
@@ -337,13 +337,12 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     @Override
     public void render(@NotNull DrawContext graphics, int mouseX, int mouseY, float partialTick) {
         super.render(graphics, mouseX, mouseY, partialTick);
-        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.preview"), x + 108, y + 5, 0x00ff00);
-        graphics.drawText(textRenderer, Text.translatable(String.format("imguns.type.%s.name", selectedType)), x + 150, y + 32, 0x555555, false);
-        graphics.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.ingredient"), x + 254, y + 50, 0x00ff00, true);
-        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.craft"), x + 312, y + 167, 0xFFFFFF);
+        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.preview"), x + 220, y + 24, 0x00ff00);
+        graphics.drawText(textRenderer, Text.translatable(String.format("imguns.type.%s.name", selectedType)), x + 15, y + 5, 0x555555, false);
+        graphics.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.ingredient"), x + 254, y + 27, 0x00ff00, true);
+        drawModCenteredString(graphics, textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.craft"), x + 315, y + 139, 0xFFFFFF);
         if (this.selectedRecipe != null) {
             this.renderLeftModel(this.selectedRecipe);
-            this.renderPackInfo(graphics, this.selectedRecipe);
         }
         if (selectedRecipeList != null && !selectedRecipeList.isEmpty()) {
             renderIngredient(graphics);
@@ -353,78 +352,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
                 .forEach(w -> ((ResultButton) w).renderTooltips(stack -> graphics.drawItemTooltip(textRenderer, stack, mouseX, mouseY)));
     }
 
-    private void renderPackInfo(DrawContext gui, GunSmithTableRecipe recipe) {
-        ItemStack output = recipe.getOutput();
-        Item item = output.getItem();
-        Identifier id;
-        if (item instanceof IGun iGun) {
-            id = iGun.getGunId(output);
-        } else if (item instanceof IAttachment iAttachment) {
-            id = iAttachment.getAttachmentId(output);
-        } else if (item instanceof IAmmo iAmmo) {
-            id = iAmmo.getAmmoId(output);
-        } else {
-            return;
-        }
 
-        PackInfo packInfo = ClientAssetManager.INSTANCE.getPackInfo(id);
-        MatrixStack poseStack = gui.getMatrices();
-        if (packInfo != null) {
-            poseStack.push();
-            poseStack.scale(0.75f, 0.75f, 1);
-            Text nameText = Text.translatable(packInfo.getName());
-            gui.drawText(textRenderer, nameText, (int) ((x + 6) / 0.75f), (int) ((y + 122) / 0.75f), Formatting.DARK_GRAY.getColorValue(), false);
-            poseStack.pop();
-
-            poseStack.push();
-            poseStack.scale(0.5f, 0.5f, 1);
-
-            int offsetX = (x + 6) * 2;
-            int offsetY = (y + 123) * 2;
-            int nameWidth = textRenderer.getWidth(nameText);
-            Text ver = Text.literal("v" + packInfo.getVersion()).formatted(Formatting.UNDERLINE);
-            gui.drawText(textRenderer, ver, (int) (offsetX + nameWidth * 0.75f / 0.5f + 5), offsetY, Formatting.DARK_GRAY.getColorValue(), false);
-            offsetY += 14;
-
-            String descKey = packInfo.getDescription();
-            if (StringUtils.isNoneBlank(descKey)) {
-                Text desc = Text.translatable(descKey);
-                List<OrderedText> split = textRenderer.wrapLines(desc, 245);
-                for (OrderedText charSequence : split) {
-                    gui.drawText(textRenderer, charSequence, offsetX, offsetY, Formatting.DARK_GRAY.getColorValue(), false);
-                    offsetY += textRenderer.fontHeight;
-                }
-                offsetY += 3;
-            }
-
-            gui.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.license")
-                            .append(Text.literal(packInfo.getLicense()).formatted(Formatting.DARK_GRAY)),
-                    offsetX, offsetY, Formatting.DARK_GRAY.getColorValue(), false);
-            offsetY += 12;
-
-            List<String> authors = packInfo.getAuthors();
-            if (!authors.isEmpty()) {
-                gui.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.authors")
-                                .append(Text.literal(StringUtils.join(authors, ", ")).formatted(Formatting.DARK_GRAY)),
-                        offsetX, offsetY, Formatting.DARK_GRAY.getColorValue(), false);
-                offsetY += 12;
-            }
-
-            gui.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.date")
-                            .append(Text.literal(packInfo.getDate()).formatted(Formatting.DARK_GRAY)),
-                    offsetX, offsetY, Formatting.DARK_GRAY.getColorValue(), false);
-
-            poseStack.pop();
-        } else {
-            Identifier recipeId = recipe.getId();
-            gui.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.error").formatted(Formatting.DARK_RED), x + 6, y + 122, 0xAF0000, false);
-            gui.drawText(textRenderer, Text.translatable("gui.immersive_guns.gun_smith_table.error.id", recipeId.toString()).formatted(Formatting.DARK_RED), x + 6, y + 134, 0xFFFFFF, false);
-            PackInfo errorPackInfo = ClientAssetManager.INSTANCE.getPackInfo(recipeId);
-            if (errorPackInfo != null) {
-                gui.drawText(textRenderer, Text.translatable(errorPackInfo.getName()).formatted(Formatting.DARK_RED), x + 6, y + 146, 0xAF0000, false);
-            }
-        }
-    }
 
     private void renderIngredient(DrawContext gui) {
         if (this.selectedRecipe == null) {
@@ -438,7 +366,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
                     return;
                 }
                 int offsetX = x + 254 + 45 * j;
-                int offsetY = y + 62 + 17 * i;
+                int offsetY = y + 40 + 17 * i;
 
                 GunSmithTableIngredient smithTableIngredient = inputs.get(index);
                 Ingredient ingredient = smithTableIngredient.ingredient();
@@ -476,12 +404,12 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
         RenderDistance.markGuiRenderTimestamp();
 
         float rotationPeriod = 8f;
-        int xPos = x + 60;
-        int yPos = y + 50;
-        int startX = x + 3;
-        int startY = y + 16;
-        int width = 128;
-        int height = 99;
+        int xPos = x + 170;
+        int yPos = y + 72;
+        int startX = x + 115;
+        int startY = y + 24;
+        int width = 244;
+        int height = 111;
         float rotPitch = 15;
 
         Window window = MinecraftClient.getInstance().getWindow();
@@ -529,8 +457,8 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
     @Override
     protected void drawBackground(@NotNull DrawContext gui, float partialTick, int mouseX, int mouseY) {
         this.renderBackground(gui);
-        gui.drawTexture(SIDE, x, y, 0, 0, 134, 187);
-        gui.drawTexture(TEXTURE, x + 136, y + 27, 0, 0, 208, 160);
+        gui.drawTexture(TEXTURE, x, y, 0, 0, 247, 160);
+        gui.drawTexture(SIDE, x + 250, y + 19, 0, 0, 100, 141);
     }
 
     @Override
