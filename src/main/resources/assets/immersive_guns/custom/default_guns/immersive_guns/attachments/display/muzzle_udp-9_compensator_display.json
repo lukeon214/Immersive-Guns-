@@ -1,0 +1,9 @@
+{
+  "slot": "immersive_guns:attachment/slot/muzzle_udp-9_compensator",
+  "model": "immersive_guns:attachment/muzzle_udp-9_compensator_geo",
+  "texture": "immersive_guns:attachment/uv/muzzle_udp-9_compensator",
+  "sounds": {
+    "install": "immersive_guns:attachments/muzzle_general",
+    "uninstall": "immersive_guns:attachments/muzzle_general"
+  }
+}

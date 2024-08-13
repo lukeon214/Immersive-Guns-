@@ -151,7 +151,7 @@ public class BedrockGunModel extends BedrockAnimatedModel {
 
     private void allAttachmentRender() {
         for (AttachmentType type : AttachmentType.values()) {
-            // 瞄具的渲染需要提前
+            // The rendering of the sight needs to be done in advance
             if (type == AttachmentType.NONE || type == AttachmentType.SCOPE) {
                 continue;
             }
@@ -169,10 +169,32 @@ public class BedrockGunModel extends BedrockAnimatedModel {
                 bedrockPart.visible = attachmentItem == null || attachmentItem.isEmpty();
                 return null;
             });
+
+            this.setFunctionalRenderer(defaultNodeName, bedrockPart -> {
+                ItemStack attachmentItem = currentAttachmentItem.get(type);
+                if (type == AttachmentType.RAILING && checkShowRailing(bedrockPart, attachmentItem)) {
+                    return null;
+                }
+                bedrockPart.visible = attachmentItem == null || attachmentItem.isEmpty();
+                return null;
+            });
         }
     }
 
     private static boolean checkShowMuzzle(BedrockPart bedrockPart, ItemStack attachmentItem) {
+        IAttachment iAttachment = IAttachment.getIAttachmentOrNull(attachmentItem);
+        if (iAttachment != null) {
+            Identifier attachmentId = iAttachment.getAttachmentId(attachmentItem);
+            var attachmentIndex = TimelessAPI.getClientAttachmentIndex(attachmentId);
+            if (attachmentIndex.isPresent()) {
+                bedrockPart.visible = attachmentIndex.get().isShowMuzzle();
+                return true;
+            }
+        }
+        return false;
+    }
+
+    private static boolean checkShowRailing(BedrockPart bedrockPart, ItemStack attachmentItem) {
         IAttachment iAttachment = IAttachment.getIAttachmentOrNull(attachmentItem);
         if (iAttachment != null) {
             Identifier attachmentId = iAttachment.getAttachmentId(attachmentItem);
