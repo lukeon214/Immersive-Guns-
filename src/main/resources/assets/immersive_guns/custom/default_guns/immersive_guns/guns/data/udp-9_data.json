@@ -94,7 +94,9 @@
     "scope",
     "muzzle",
     "extended_mag",
-    "railing"
+    "railing",
+    "grip",
+    "stock"
   ],
   "exclusive_attachments": {
     "immersive_guns:scope_standard_8x": {

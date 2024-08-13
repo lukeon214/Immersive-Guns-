@@ -1,0 +1,9 @@
+{
+  "slot": "immersive_guns:attachment/slot/grip_vertical",
+  "model": "immersive_guns:attachment/grip_vertical_geo",
+  "texture": "immersive_guns:attachment/uv/grip_vertical",
+  "sounds": {
+    "install": "immersive_guns:attachments/attachment_general_b",
+    "uninstall": "immersive_guns:attachments/attachment_general_uninstall"
+  }
+}

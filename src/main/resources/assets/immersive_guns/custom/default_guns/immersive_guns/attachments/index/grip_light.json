@@ -1,0 +1,6 @@
+{
+  "name": "imguns.attachment.grip_light.name",
+  "display": "immersive_guns:grip_light_display",
+  "data": "immersive_guns:grip_light_data",
+  "type": "grip"
+}

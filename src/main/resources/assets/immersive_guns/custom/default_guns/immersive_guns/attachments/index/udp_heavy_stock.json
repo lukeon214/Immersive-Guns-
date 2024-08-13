@@ -1,0 +1,6 @@
+{
+  "name": "imguns.attachment.udp_heavy_stock.name",
+  "display": "immersive_guns:udp_heavy_stock_display",
+  "data": "immersive_guns:udp_heavy_stock_data",
+  "type": "stock"
+}

@@ -1,0 +1,6 @@
+{
+  "name": "imguns.attachment.grip_vertical.name",
+  "display": "immersive_guns:grip_vertical_display",
+  "data": "immersive_guns:grip_vertical_data",
+  "type": "grip"
+}

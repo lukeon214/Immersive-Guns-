@@ -1,0 +1,10 @@
+{
+  "slot": "immersive_guns:attachment/slot/udp_tactical_stock",
+  "model": "immersive_guns:attachment/udp_tactical_stock_geo",
+  "texture": "immersive_guns:attachment/uv/udp_tactical_stock",
+  "adapter": "ar_stock_adapter",
+  "sounds": {
+    "install": "immersive_guns:attachments/attachment_general_a",
+    "uninstall": "immersive_guns:attachments/attachment_general_uninstall"
+  }
+}

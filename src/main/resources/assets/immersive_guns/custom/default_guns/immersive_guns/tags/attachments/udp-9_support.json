@@ -3,6 +3,9 @@
   "immersive_guns:muzzle_udp-9_compensator",
   "immersive_guns:muzzle_udp-9_silencer",
   "immersive_guns:udp-9_railing",
-  "immersive_guns:",
-  "immersive_guns:"
+  "immersive_guns:grip_light",
+  "immersive_guns:grip_vertical",
+  "immersive_guns:udp_heavy_stock",
+  "immersive_guns:udp_light_stock",
+  "immersive_guns:udp_tactical_stock"
 ]
