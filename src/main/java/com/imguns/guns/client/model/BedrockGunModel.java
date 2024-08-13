@@ -189,7 +189,8 @@ public class BedrockGunModel extends BedrockAnimatedModel {
     private IFunctionalRenderer handguardTacticalRender(BedrockPart bedrockPart) {
         ItemStack laserItem = currentAttachmentItem.get(AttachmentType.LASER);
         ItemStack gripItem = currentAttachmentItem.get(AttachmentType.GRIP);
-        bedrockPart.visible = !laserItem.isEmpty() || !gripItem.isEmpty();
+        ItemStack railingItem = currentAttachmentItem.get(AttachmentType.RAILING);
+        bedrockPart.visible = !laserItem.isEmpty() || !gripItem.isEmpty() || !railingItem.isEmpty();
         return null;
     }
 
@@ -197,7 +198,8 @@ public class BedrockGunModel extends BedrockAnimatedModel {
     private IFunctionalRenderer handguardDefaultRender(BedrockPart bedrockPart) {
         ItemStack laserItem = currentAttachmentItem.get(AttachmentType.LASER);
         ItemStack gripItem = currentAttachmentItem.get(AttachmentType.GRIP);
-        bedrockPart.visible = laserItem.isEmpty() && gripItem.isEmpty();
+        ItemStack railingItem = currentAttachmentItem.get(AttachmentType.RAILING);
+        bedrockPart.visible = laserItem.isEmpty() && gripItem.isEmpty() && railingItem.isEmpty();
         return null;
     }
 

@@ -102,6 +102,7 @@ public class GunSmithTableScreen extends HandledScreen<GunSmithTableMenu> {
         putRecipeType(ModCreativeTabs.ATTACHMENT_MUZZLE_TAB);
         putRecipeType(ModCreativeTabs.ATTACHMENT_STOCK_TAB);
         putRecipeType(ModCreativeTabs.ATTACHMENT_GRIP_TAB);
+        putRecipeType(ModCreativeTabs.RAILING_TAB);
         // 枪械
         putRecipeType(ModCreativeTabs.GUN_PISTOL_TAB);
         putRecipeType(ModCreativeTabs.GUN_SNIPER_TAB);

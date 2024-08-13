@@ -1,0 +1,9 @@
+{
+  "slot": "immersive_guns:attachment/slot/udp-9_railing",
+  "model": "immersive_guns:attachment/udp-9_railing_geo",
+  "texture": "immersive_guns:attachment/uv/udp-9_railing",
+  "sounds": {
+    "install": "immersive_guns:attachments/attachment_general_a",
+    "uninstall": "immersive_guns:attachments/attachment_general_uninstall"
+  }
+}

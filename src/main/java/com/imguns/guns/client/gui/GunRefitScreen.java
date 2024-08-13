@@ -64,6 +64,9 @@ public class GunRefitScreen extends Screen {
             case EXTENDED_MAG -> {
                 return ICON_UV_SIZE * 5;
             }
+            case RAILING -> {
+                return ICON_UV_SIZE * 6;
+            }
         }
         return -1;
     }

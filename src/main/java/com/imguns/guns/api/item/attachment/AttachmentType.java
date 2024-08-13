@@ -34,6 +34,11 @@ public enum AttachmentType {
     @SerializedName("extended_mag")
     EXTENDED_MAG,
     /**
+     * Gun Railing
+     */
+    @SerializedName("railing")
+    RAILING,
+    /**
      * Used to indicate when an item is not an accessory.
      */
     NONE

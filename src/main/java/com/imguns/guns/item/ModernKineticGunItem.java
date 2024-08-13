@@ -154,6 +154,13 @@ public class ModernKineticGunItem extends AbstractGunItem implements GunItemData
                 return;
             }
 
+            Identifier railingId = this.getAttachmentId(gunItem, AttachmentType.RAILING);
+            MeleeData railingData = getMeleeData(railingId);
+            if (railingData != null) {
+                doMelee(user, distance, railingData.getDistance(), railingData.getRangeAngle(), railingData.getKnockback(), railingData.getDamage(), railingData.getEffects());
+                return;
+            }
+
             GunDefaultMeleeData defaultData = meleeData.getDefaultMeleeData();
             if (defaultData == null) {
                 return;

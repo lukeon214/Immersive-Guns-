@@ -45,6 +45,11 @@ public class ModCreativeTabs {
             .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.STOCK))).build());
 
+    public static ItemGroup RAILING_TAB = register("railing", FabricItemGroup.builder()
+            .displayName(Text.translatable("imguns.type.railing.name"))
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
+            .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.RAILING))).build());
+
     public static ItemGroup ATTACHMENT_GRIP_TAB = register("grip", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.grip.name"))
             .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
