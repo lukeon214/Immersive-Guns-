@@ -88,7 +88,7 @@ public class GunRefitScreen extends Screen {
     public void render(@NotNull DrawContext graphics, int mouseX, int mouseY, float pPartialTick) {
         super.render(graphics, mouseX, mouseY, pPartialTick);
 
-        GunPropertyDiagrams.draw(graphics, textRenderer, 11, 11);
+        GunPropertyDiagrams.draw(graphics, textRenderer, 0, 0);
 
         this.drawables.stream().filter(w -> w instanceof IComponentTooltip).forEach(w -> ((IComponentTooltip) w)
                 .renderTooltip(component -> graphics.drawTooltip(textRenderer, component, mouseX, mouseY)));
