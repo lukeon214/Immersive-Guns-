@@ -1,0 +1,7 @@
+{
+  "name": "imguns.attachment.udp_laser.name",
+  "tooltip": "immersive_guns.udp_laser.tooltip",
+  "display": "immersive_guns:udp_laser_display",
+  "data": "immersive_guns:udp_laser_data",
+  "type": "laser"
+}

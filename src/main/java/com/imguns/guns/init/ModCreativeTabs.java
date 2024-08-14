@@ -55,6 +55,11 @@ public class ModCreativeTabs {
             .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.GRIP))).build());
 
+    public static ItemGroup LASER_TAB = register("laser", FabricItemGroup.builder()
+            .displayName(Text.translatable("imguns.type.laser.name"))
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "udp_laser")).build())
+            .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.LASER))).build());
+
     public static ItemGroup ATTACHMENT_EXTENDED_MAG_TAB = register("extended_mag", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.extended_mag.name"))
             .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "light_extended_mag_3")).build())

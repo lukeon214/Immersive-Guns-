@@ -1,6 +1,7 @@
 [
   "immersive_guns:sight_sro_dot",
   "immersive_guns:sight_rmr_dot",
+  "immersive_guns:udp_laser",
   "#immersive_guns:udp-9_support",
   "#immersive_guns:light_extended_mag"
 ]

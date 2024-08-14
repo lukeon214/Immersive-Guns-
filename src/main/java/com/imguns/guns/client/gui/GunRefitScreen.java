@@ -43,7 +43,7 @@ public class GunRefitScreen extends Screen {
             return -1;
         }
         if (!iGun.allowAttachmentType(gunItem, attachmentType)) {
-            return ICON_UV_SIZE * 6;
+            return ICON_UV_SIZE * 7;
         }
         switch (attachmentType) {
             case GRIP -> {
@@ -72,7 +72,7 @@ public class GunRefitScreen extends Screen {
     }
 
     public static int getSlotsTextureWidth() {
-        return ICON_UV_SIZE * 7;
+        return ICON_UV_SIZE * 8;
     }
 
     @Override

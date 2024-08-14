@@ -1,0 +1,9 @@
+{
+  "slot": "immersive_guns:attachment/slot/udp_laser",
+  "model": "immersive_guns:attachment/udp_laser_geo",
+  "texture": "immersive_guns:attachment/uv/udp_laser",
+  "sounds": {
+    "install": "immersive_guns:attachments/scope_general_c",
+    "uninstall": "immersive_guns:attachments/scope_general_c"
+  }
+}

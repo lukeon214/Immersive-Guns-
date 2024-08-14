@@ -96,7 +96,8 @@
     "extended_mag",
     "railing",
     "grip",
-    "stock"
+    "stock",
+    "laser"
   ],
   "exclusive_attachments": {
     "immersive_guns:scope_standard_8x": {
