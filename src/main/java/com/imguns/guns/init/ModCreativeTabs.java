@@ -37,22 +37,22 @@ public class ModCreativeTabs {
 
     public static ItemGroup ATTACHMENT_MUZZLE_TAB = register("muzzle", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.muzzle.name"))
-            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "muzzle_silence_mirage")).build())
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "muzzle_udp-9_brake")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.MUZZLE))).build());
 
     public static ItemGroup ATTACHMENT_STOCK_TAB = register("stock", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.stock.name"))
-            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "udp_light_stock")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.STOCK))).build());
 
     public static ItemGroup RAILING_TAB = register("railing", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.railing.name"))
-            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "udp-9_railing")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.RAILING))).build());
 
     public static ItemGroup ATTACHMENT_GRIP_TAB = register("grip", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.grip.name"))
-            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
+            .icon(() -> AttachmentItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "grip_vertical")).build())
             .entries((parameters, output) -> output.addAll(AttachmentItem.fillItemCategory(AttachmentType.GRIP))).build());
 
     public static ItemGroup LASER_TAB = register("laser", FabricItemGroup.builder()
@@ -87,7 +87,7 @@ public class ModCreativeTabs {
 
     public static ItemGroup GUN_SMG_TAB = register("smg", FabricItemGroup.builder()
             .displayName(Text.translatable("imguns.type.smg.name"))
-            .icon(() -> GunItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "m24")).build())
+            .icon(() -> GunItemBuilder.create().setId(new Identifier(GunMod.MOD_ID, "udp-9")).build())
             .entries((parameters, output) -> output.addAll(AbstractGunItem.fillItemCategory(GunTabType.SMG))).build());
 
     public static ItemGroup GUN_RPG_TAB = register("rpg", FabricItemGroup.builder()

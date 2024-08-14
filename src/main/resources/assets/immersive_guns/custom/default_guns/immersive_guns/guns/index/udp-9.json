@@ -3,7 +3,7 @@
     "display": "immersive_guns:udp-9_display",
     "data": "immersive_guns:udp-9_data",
     "tooltip": "imguns.gun.udp-9.desc",
-    "type": "rifle",
+    "type": "smg",
     "item_type": "modern_kinetic",
     "sort": 1
 }

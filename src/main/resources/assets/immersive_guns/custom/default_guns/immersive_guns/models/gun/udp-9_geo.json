@@ -4401,7 +4401,7 @@
 				{
 					"name": "stock_pos",
 					"parent": "udp_body",
-					"pivot": [0, 9.12266, 9.74922]
+					"pivot": [0, 9.99766, 9.74922]
 				},
 				{
 					"name": "railing_pos",
