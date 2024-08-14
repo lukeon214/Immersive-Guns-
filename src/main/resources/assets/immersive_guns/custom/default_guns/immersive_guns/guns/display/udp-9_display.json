@@ -2,8 +2,8 @@
   "model": "immersive_guns:gun/udp-9_geo",
   "texture": "immersive_guns:gun/uv/udp-9",
   "lod": {
-    "model": "immersive_guns:gun/lod/ak47",
-    "texture": "immersive_guns:gun/lod/ak47"
+    "model": "immersive_guns:gun/lod/udp-9",
+    "texture": "immersive_guns:gun/lod/udp-9"
   },
   "hud": "immersive_guns:gun/hud/udp-9",
   "slot": "immersive_guns:gun/slot/udp-9",
@@ -21,7 +21,7 @@
   },
   "muzzle_flash": {
     "texture": "immersive_guns:flash/common_muzzle_flash",
-    "scale": 0.75
+    "scale": 0.65
   },
   "iron_zoom": 1.2,
   "shell": {
@@ -35,16 +35,16 @@
     "tracer_color": "#FF8888"
   },
   "sounds": {
-    "shoot": "immersive_guns:ak47/ak47_shoot",
-    "shoot_3p": "immersive_guns:ak47/ak47_shoot_3p",
-    "reload_empty": "immersive_guns:ak47/ak47_reload_empty",
-    "reload_tactical": "immersive_guns:ak47/ak47_reload_tactical",
-    "inspect": "immersive_guns:ak47/ak47_inspect",
-    "inspect_empty": "immersive_guns:ak47/ak47_inspect_empty",
-    "draw": "immersive_guns:ak47/ak47_draw",
-    "put_away": "immersive_guns:ak47/ak47_put_away",
-    "silence": "immersive_guns:ak47/ak47_silence",
-    "silence_3p": "immersive_guns:ak47/ak47_silence_3p",
+    "shoot": "immersive_guns:udp-9/udp-9_shoot",
+    "shoot_3p": "immersive_guns:udp-9/udp-9_shoot_3p",
+    "reload_empty": "immersive_guns:udp-9/udp-9_reload_empty",
+    "reload_tactical": "immersive_guns:udp-9/udp-9_reload_tactical",
+    "inspect": "immersive_guns:udp-9/udp-9_inspect",
+    "inspect_empty": "immersive_guns:udp-9/udp-9_inspect_empty",
+    "draw": "immersive_guns:udp-9/udp-9_draw",
+    "put_away": "immersive_guns:udp-9/udp-9_put_away",
+    "silence": "immersive_guns:udp-9/udp-9_silence",
+    "silence_3p": "immersive_guns:udp-9/udp-9_silence_3p",
     "dry_fire": "immersive_guns:dry_fire",
     "fire_select": "immersive_guns:fire_select",
     "head_hit": "immersive_guns:head_hit",
@@ -73,7 +73,7 @@
       "shadow": false,
       "color": "#FFFFFF",
       "light": 15,
-      "text": "text_show.imguns.ak47.ammo_count"
+      "text": "text_show.imguns.udp-9.ammo_count"
     }
   }
 }
