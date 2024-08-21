@@ -167,5 +167,7 @@
   "config.immersive_guns.common.other.target_sound_distance": "Target Sound Distance",
   "config.immersive_guns.common.other.target_sound_distance.desc": "The farthest sound distance of the target, including minecarts type",
   "death.attack.immersive_guns.bullet": "%1$s was shot by %2$s",
-  "death.attack.immersive_guns.bullet.item": "%1$s was shot by %2$s using %3$s"
+  "death.attack.immersive_guns.bullet.item": "%1$s was shot by %2$s using %3$s",
+  "tooltip.immersive_guns.attachment.damage.increase": "+ Damage",
+  "tooltip.immersive_guns.attachment.damage.decrease": "- Damage"
 }

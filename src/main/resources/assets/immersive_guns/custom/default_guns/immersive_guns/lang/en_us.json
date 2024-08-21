@@ -40,6 +40,8 @@
   "imguns.attachment.light_extended_mag_3.name":"§5Light Ammo Extended mag",
 
 
-  "imguns.attachment.muzzle_silence_mirage.name": "Pistol Silencer"
+  "imguns.attachment.muzzle_silence_mirage.name": "Pistol Silencer",
+  "tooltip.immersive_guns.attachment.damage.increase": "+ Damage",
+  "tooltip.immersive_guns.attachment.damage.decrease": "- Damage"
 
 }

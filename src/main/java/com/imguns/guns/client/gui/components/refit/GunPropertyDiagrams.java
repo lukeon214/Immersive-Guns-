@@ -53,12 +53,24 @@ public final class GunPropertyDiagrams {
             int damageLength = (int) (barStartX + barMaxWidth * damagePercent);
             String damageValueText = String.format("%.2f", damageAmount);
 
+            float[] damageModifier = new float[]{0};
+            AttachmentDataUtils.getAllAttachmentData(gunItem, gunData, attachmentData -> damageModifier[0] += attachmentData.getDamageAddend());
+            double attachmentDamagePercent = Math.min(damageModifier[0] / 10.0, 1);
+            int damageModifierLength = MathHelper.clamp(damageLength + (int) (barMaxWidth * attachmentDamagePercent), barStartX, barEndX);
+
             graphics.drawText(font, Text.translatable("gui.immersive_guns.gun_refit.property_diagrams.damage"), nameTextStartX, y + 5, fontColor, false);
             graphics.fill(barStartX, y + 7, barEndX, y + 11, barBackgroundColor);
             graphics.fill(barStartX, y + 7, damageLength, y + 11, barBaseColor);
-            graphics.drawText(font, damageValueText, valueTextStartX, y + 5, fontColor, false);
-
-
+            if (attachmentDamagePercent < 0) {
+                graphics.fill(damageModifierLength, y + 7, damageLength, y + 11, barNegativeColor);
+                graphics.drawText(font, String.format("%.2f §a(%.2f)", damageAmount, damageModifier[0]), valueTextStartX, y + 5, fontColor, false);
+            } else if (attachmentDamagePercent > 0) {
+                graphics.fill(damageLength, y + 7, damageModifierLength, y + 11, barPositivelyColor);
+                graphics.drawText(font, String.format("%.2f §c(+%.2f)", damageAmount, damageModifier[0]), valueTextStartX, y + 5, fontColor, false);
+            } else {
+                graphics.drawText(font, String.format("%.2f", damageAmount), valueTextStartX, y + 5, fontColor, false);
+            }
+            
             // 射速
             int rpm = gunData.getRoundsPerMinute();
             double rpmPercent = Math.min(rpm / 1200.0, 1);

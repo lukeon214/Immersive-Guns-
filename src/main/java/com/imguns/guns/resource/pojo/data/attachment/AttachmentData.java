@@ -20,6 +20,9 @@ public class AttachmentData {
     @SerializedName("inaccuracy_addend")
     private float inaccuracyAddend = 0;
 
+    @SerializedName("damage")
+    private float damageAddend = 0;
+
     @SerializedName("recoil_modifier")
     @Nullable
     private RecoilModifier recoilModifier = null;
@@ -47,6 +50,10 @@ public class AttachmentData {
 
     public float getInaccuracyAddend() {
         return inaccuracyAddend;
+    }
+
+    public float getDamageAddend() {
+        return damageAddend;
     }
 
     @Nullable

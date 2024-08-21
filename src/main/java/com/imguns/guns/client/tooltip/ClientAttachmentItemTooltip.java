@@ -190,6 +190,13 @@ public class ClientAttachmentItemTooltip implements TooltipComponent {
                 components.add(Text.translatable("tooltip.immersive_guns.attachment.inaccuracy.decrease").formatted(Formatting.GREEN));
             }
 
+            float damageAddend = data.getDamageAddend();
+            if (damageAddend > 0) {
+                components.add(Text.translatable("tooltip.immersive_guns.attachment.damage.increase").formatted(Formatting.GREEN));
+            } else if (damageAddend < 0) {
+                components.add(Text.translatable("tooltip.immersive_guns.attachment.damage.decrease").formatted(Formatting.RED));
+            }
+
             RecoilModifier recoilModifier = data.getRecoilModifier();
             if (recoilModifier != null) {
                 float pitch = recoilModifier.getPitch();
