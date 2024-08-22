@@ -58,7 +58,7 @@ public class GunAttachmentSlot extends ButtonWidget implements IStackTooltip {
 
         RenderSystem.disableDepthTest();
         RenderSystem.enableBlend();
-        // 渲染外框
+        // Rendering frame
         int x = this.getX();
         int y = this.getY();
         if (isSelected() || selected) {
@@ -66,7 +66,7 @@ public class GunAttachmentSlot extends ButtonWidget implements IStackTooltip {
         } else {
             graphics.drawTexture(GunRefitScreen.SLOT_TEXTURE, x + 1, y + 1, 1, 1, width - 2, height - 2, GunRefitScreen.SLOT_SIZE, GunRefitScreen.SLOT_SIZE);
         }
-        // 渲染内部物品，或者空置时的icon
+        // Render internal items, or icons when empty
         this.attachmentItem = iGun.getAttachment(gunItem, type);
         if (!attachmentItem.isEmpty()) {
             graphics.drawItem(attachmentItem, x + 1, y + 1);

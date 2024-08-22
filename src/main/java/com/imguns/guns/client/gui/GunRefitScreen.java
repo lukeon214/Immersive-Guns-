@@ -176,28 +176,28 @@ public class GunRefitScreen extends Screen {
             PlayerInventory inventory = player.getInventory();
             GunAttachmentSlot button = new GunAttachmentSlot(startX, startY, type, inventory.selectedSlot, inventory, b -> {
                 AttachmentType buttonType = ((GunAttachmentSlot) b).getAttachmentType();
-                // 如果这个槽位不允许安装配件，则默认退回概览，不选中槽位。
+                // If this slot does not allow the installation of accessories, it will return to the overview by default and the slot will not be selected.
                 if (!((GunAttachmentSlot) b).isAllow()) {
                     if (RefitTransform.changeRefitScreenView(AttachmentType.NONE)) {
                         this.init();
                     }
                     return;
                 }
-                // 点击的是当前选中的槽位，则退回概览
+                // If you click on the currently selected slot, you will return to the overview.
                 if (RefitTransform.getCurrentTransformType() == buttonType && buttonType != AttachmentType.NONE) {
                     if (RefitTransform.changeRefitScreenView(AttachmentType.NONE)) {
                         this.init();
                     }
                     return;
                 }
-                // 切换选中的槽位。
+                // Switch the selected slot.
                 if (RefitTransform.changeRefitScreenView(buttonType)) {
                     this.init();
                 }
             });
             if (RefitTransform.getCurrentTransformType() == type) {
                 button.setSelected(true);
-                // 添加拆卸配件按钮
+                // Add disassembly accessory button
                 RefitUnloadButton unloadButton = new RefitUnloadButton(startX + 5, startY + SLOT_SIZE + 2, b -> {
                     ItemStack attachmentItem = button.getAttachmentItem();
                     if (!attachmentItem.isEmpty()) {
