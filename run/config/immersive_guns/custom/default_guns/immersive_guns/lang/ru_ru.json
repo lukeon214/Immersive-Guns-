@@ -1,0 +1,42 @@
+{
+  "pack.imguns.imguns_default_gun.name": "Иммерсивное оружие — бета-набор",
+  "pack.imguns.imguns_default_gun.desc": "Если вы читаете это, значит, я полный идиот и забыл изменить этот текст, поэтому, пожалуйста, присоединяйтесь к моему дискорду и скажите мне, что я должен это изменить — Спасибо!",
+
+  "imguns.type.ammo.name": "Боеприпасы",
+  "imguns.type.pistol.name": "Пистолет",
+  "imguns.type.rifle.name": "Винтовка",
+  "imguns.type.rpg.name": "Тяжёлое оружие",
+  "imguns.type.mg.name": "Пулемёт",
+  "imguns.type.sniper.name": "Снайперское",
+  "imguns.type.shotgun.name": "Дробовик",
+  "imguns.type.smg.name": "Автомат",
+  "imguns.type.scope.name": "Прицел",
+  "imguns.type.muzzle.name": "Дуло",
+  "imguns.type.stock.name": "Приклад",
+  "imguns.type.grip.name": "Рукоять",
+  "imguns.type.extended_mag.name": "Увеличенный магазин",
+  "imguns.type.laser.name": "Лазер",
+
+  "immersiveguns.gun.glock_17.name": "Глок 17",
+  "immersiveguns.gun.glock_18.name": "Глок 18 — автоматический",
+
+  "imguns.gun.ak47.desc": "В разработке",
+  "imguns.gun.db_short.desc": "В разработке",
+  "immersiveguns.gun.glock_17.desc": "Мы все любим этот ствол, так ведь?",
+  "immersiveguns.gun.glock_18.desc": "Мы все любим этот ствол, так ведь?",
+  "imguns.gun.m249.desc": "В разработке",
+  "imguns.gun.rpg7.desc": "В разработке",
+  "imguns.gun.hk_mp5a5.desc": "В разработке",
+
+  "imguns.ammo.9mm.name": "§aПуля 9 мм",
+  
+  "imguns.attachment.sight_sro_dot.name": "Миниатюрный коллиматорный прицел SRO с красной точкой",
+  "imguns.attachment.sight_rmr_dot.name": "Миниатюрный коллиматорный прицел RMR с красной точкой",
+
+  "imguns.attachment.light_extended_mag_1.name": "Увеличенный магазин для лёгких боеприпасов",
+  "imguns.attachment.light_extended_mag_2.name": "§9Увеличенный магазин для лёгких боеприпасов",
+  "imguns.attachment.light_extended_mag_3.name": "§5Увеличенный магазин для лёгких боеприпасов",
+
+
+  "imguns.attachment.muzzle_silence_mirage.name": "Пистолетный глушитель"
+}
